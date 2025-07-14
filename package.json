@@ -1,0 +1,18 @@
+{
+  "name": "my-azure-gpt4o-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot connected to Azure OpenAI GPT-4o",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.16.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.0.0"
+  }
+}
